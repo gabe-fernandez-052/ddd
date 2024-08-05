@@ -1,0 +1,15 @@
+﻿dotnet ef dbcontext scaffold "Server=10.1.0.4; User ID=Yukon; Password=Denver80218; Database=YukonTestRfmw; encrypt=false" Microsoft.EntityFrameworkCore.SqlServer `
+-c WarehouseManagementContext -o .\Data\Scaffold -f --data-annotations -t SupplierOrder -t SupplierOrderItem -t Receiver -t ReceiverItem -t ReceiverSupplierOrder `
+-t Product -t Supplier -t ReceiverOrderItem -t WarehouseInventory -t InventoryBin -t Allocation -t Warehouse -t CDICompanyGroup -t OrderLineItem -t CustomerOrder `
+-t Event -t CustomerExpedite -t CustomerExpediteItem -t CDIListValue -t CompanyConfiguration -t CDICompany -t EventNote -t OrderItemToShip `
+-t OrderToShip -t vSupplierManufacturer -t SupplierInventoryItem -t Shipment -t ShipmentItem -t InternalLocation -t Customer -t OrderCreditCardAuthorization `
+-t PaymentTerms -t CustomerLocation -t Country -t OrderLineItem -t Manufacturer -t SupplierManufacturer -t OrderItemCarrierAccount -t Allocation `
+-t SPSSShipment -t ShipmentPackage -t ShipmentPackageDetail -t SPSSShipmentPart -t FreightChargeMethod -t CarrierFreightChargeMethod -t CarrierService `
+-t ShipmentCustomerOrder -t ShipmentOrderItem -t TransactionLog -t CDICompanyCommission -t ManufacturerProductCategory -t TransactionItemLink `
+-t Opportunity -t CustomerTeamMember -t BranchTeamMember -t Branch -t CDILocation -t CDITerritoryPostalCode -t CDITerritoryState -t CDITerritoryCountry `
+-t CDITerritoryBranch -t ShipmentItemBin -t ARInvoice -t ARInvoiceItemCommon -t ARInvoiceItem -t TransactionItemTariff -t ManufacturerConfiguration `
+-t ARShipmentInvoice -t ARInvoiceTotal -t CDICompanyAccount -t CDICompanyVAT -t OrderItemCommission -t ARInvoiceItemCommission -t SupplierDeal -t SupplierDealProduct `
+-t APShipDebit -t APShipDebitItem -t APInvoiceItemCommon -t APInvoice -t OrderItemChange -t ShipmentContentItem -t AllocationInventoryBin
+
+dotnet ef dbcontext scaffold "Server=10.1.0.4; User ID=Yukon; Password=Denver80218; Database=YukonTestRfmw; encrypt=false" Microsoft.EntityFrameworkCore.SqlServer `
+-c NextNumbersContext -o .\Data\Scaffold -f --data-annotations -t NextNumber

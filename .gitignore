@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+packages/
+sqlite3/
+/UpgradeLog*.htm
+*.user
+*.log
+*.bak
+*.suo

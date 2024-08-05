@@ -1,0 +1,8 @@
+@WarehouseManagement.API_HostAddress = https://localhost:7046
+
+POST {{WarehouseManagement.API_HostAddress}}/api/v1/receiving/receive
+Accept: application/json
+Authorization: bearer <YOUR TOKEN HERE>
+
+
+

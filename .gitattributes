@@ -1,0 +1,5 @@
+# Use built in git patterns to get better hunk header names
+# ex. For C# files use the `public class ...` instead of namespace declarations
+# https://www.git-scm.com/docs/gitattributes#_defining_a_custom_hunk_header
+*.cs diff=csharp
+*.md diff=markdown
