@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "7HOVQApeZbiT9YbfCJwRREh+c7TcVlirLzYljYDTvW4RXW2US2L1bVOZihqwWXXsEr6Z3ZXxc+LgGla8QN3eEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Gabriel.fernandez\\Downloads\\8n68CnxWQxwgt52YFO5q_dome-gym-6-start\\6-start\\dome-gym\\src\\DomeGym.Domain\\DomeGym.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\ardalis.smartenum\\7.0.0\\ardalis.smartenum.7.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\erroror\\1.2.1\\erroror.1.2.1.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\mediatr\\12.1.1\\mediatr.12.1.1.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\oneof\\3.0.216\\oneof.3.0.216.nupkg.sha512",
+    "C:\\Users\\Gabriel.fernandez\\.nuget\\packages\\throw\\1.3.1\\throw.1.3.1.nupkg.sha512"
+  ],
+  "logs": []
+}
